@@ -2,8 +2,8 @@ version: "3"
 services:
   postgresql-primary:
     image: postgres:alpine
-    environment:
-      POSTGRES_PASSWORD: "HzXKPUbaz7E9rfwVLLaX94d5QbjTmkvbt9eJJpAmY8QCk3aUJUkzVVZFxxX8g7YCuUaYtJYUTqPV7r5kd8p4aZaGc26jPGgR8Dc"
+    #environment:
+     # POSTGRES_PASSWORD: "HzXKPUbaz7E9rfwVLLaX94d5QbjTmkvbt9eJJpAmY8QCk3aUJUkzVVZFxxX8g7YCuUaYtJYUTqPV7r5kd8p4aZaGc26jPGgR8Dc"
     # logging:
     #   driver: "none"
     restart: always
