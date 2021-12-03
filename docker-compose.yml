@@ -2,8 +2,8 @@ version: "3"
 services:
   postgresql-primary:
     image: postgres:alpine
-    # environment:
-    # - POSTGRES_PASSWORD: "DO NOT EVER PUT THIS HERE! Pass this via an environment variable at runtime."
+    environment:
+      - POSTGRES_PASSWORD: "jvAc^E#-Z-5Tm=Gsk=99-rXAXtZ=tNBE?&QFN*LY4QDH8p-ZJLfC%ZTsuyRU&%Ggq5_@p?hT28&ZBaFcVD6bx_38c-zsw=JaPVR"
     # logging:
     #   driver: "none"
     restart: always
