@@ -8,7 +8,7 @@ services:
     volumes:
       - /var/lib/postgresql-primary/data:/var/lib/postgresql/data
     networks:
-      - backend
+      - postgresql-primary-backend
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
 networks:
