@@ -4,8 +4,8 @@ services:
     image: postgres:alpine
     # environment:
     # - POSTGRES_PASSWORD: "DO NOT EVER PUT THIS HERE! Pass this via an environment variable at runtime."
-    logging:
-      driver: "none"
+    # logging:
+    #   driver: "none"
     restart: always
     volumes:
       - /var/lib/postgresql-primary/data:/var/lib/postgresql/data
