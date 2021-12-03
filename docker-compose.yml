@@ -2,8 +2,8 @@ version: "3"
 services:
   postgresql-primary:
     image: postgres:alpine
-    logging:
-      driver: "none"
+    # logging:
+    #   driver: "none"
     restart: always
     volumes:
       - /var/lib/postgresql-primary/data:/var/lib/postgresql/data
