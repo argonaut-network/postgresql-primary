@@ -18,5 +18,8 @@ networks:
   postgresql-primary-backend:
     name: postgresql-primary-backend
     driver: bridge
+    ipam:
+      config:
+        - subnet: "${SUBNET}"
     driver_opts:
       com.docker.network.bridge.name: postgresql-primary-backend
