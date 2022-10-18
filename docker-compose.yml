@@ -22,4 +22,4 @@ networks:
       config:
         - subnet: "${SUBNET}"
     driver_opts:
-      com.docker.network.bridge.name: postgresql-primary-backend
+      com.docker.network.bridge.name: postgresql0
