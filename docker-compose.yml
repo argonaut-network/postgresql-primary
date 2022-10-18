@@ -13,6 +13,10 @@ services:
       - postgresql-primary-backend
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
+
 networks:
   postgresql-primary-backend:
-    external: true
+    name: postgresql-primary-backend
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.name: postgresql-primary-backend
