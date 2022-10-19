@@ -2,7 +2,7 @@ version: "3"
 services:
   postgresql-primary:
     container_name: postgresql-primary
-    image: postgres:15-alpine
+    image: postgres:14-alpine
     environment:
       # Required for passing runtime env vars with Portainer. Known bug. https://github.com/portainer/portainer/issues/5016#issuecomment-828101692
       POSTGRES_PASSWORD: $POSTGRES_PASSWORD
